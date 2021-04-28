@@ -1,0 +1,378 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.h1--title {
+  text-align: center;
+  font-size: 33px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*Navegacion*/
+.nav__ul {
+  display: flex;
+  justify-content: center;
+}
+.nav_a {
+  color: #3a3939;
+  font-weight: 600;
+}
+.class__ul-li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000;
+}
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  margin-top: 10px;
+}
+.img-header {
+  height: 120px;
+  width: 480px;
+  border-radius: 10px;
+  margin-left: 2px;
+  margin-top: 8px;
+}
+.home .intro h2 {
+  padding: 15px;
+}
+.home .intro p {
+  padding: 0 15px;
+}
+.home .music-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home .music-images img {
+  width: 480px;
+  height: 360px;
+  margin-top: 40px;
+  margin-left: 5px;
+  border-radius: 40px;
+}
+.home .musica-nueva {
+  padding: 15px;
+  margin-left: -10px;
+}
+.home .musica-nueva h3 {
+  margin-top: 35px;
+}
+.home .musica-nueva p {
+  margin-top: 13px;
+}
+.home .actual {
+  margin-left: 5px;
+  border-top: 1px solid #dee2e6;
+  display: flex;
+  justify-content: center;
+  display: grid;
+}
+.home .actual .actual-text h3 {
+  margin-bottom: 10px;
+}
+.home .actual .actual-text p {
+  margin-bottom: 26px;
+}
+.img--actual {
+  width: 490px;
+  height: 369px;
+  margin-top: 55px;
+  border-radius: 20px;
+}
+.tecnologia,
+.ondas {
+  display: none;
+}
+.btn {
+  font-size: 18px;
+  height: 55px;
+  width: 475px;
+  margin-left: 5px;
+  border-radius: 10px;
+  color: #FFF;
+  background-color: #20233a;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.btn-tex {
+  margin-top: 20px;
+  margin-left: 195px;
+  font-weight: 500;
+}
+@media screen and (min-width: 600px) {
+  .img-header {
+    height: 200px;
+    width: 800px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 8px;
+  }
+  .home .intro h2 {
+    padding: 15px;
+  }
+  .home .intro p {
+    padding: 0 15px;
+  }
+  .home .music-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .home .music-images img {
+    width: 220px;
+    height: 160px;
+    margin-top: 28px;
+    margin-left: 35px;
+    border-radius: 20px;
+  }
+  .home .musica-nueva {
+    padding: 15px;
+    margin-left: -10px;
+  }
+  .home .musica-nueva h3 {
+    margin-top: 0px;
+    margin-left: 25px;
+  }
+  .home .musica-nueva p {
+    margin-top: 13px;
+    margin-left: 25px;
+  }
+  .home .actual {
+    margin-left: 5px;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: center;
+    display: grid;
+  }
+  .home .actual .actual-text {
+    width: 350px;
+    margin-top: -200px;
+    margin-left: 13px;
+  }
+  .home .actual .actual-text h3 {
+    margin-bottom: 10px;
+  }
+  .home .actual .actual-text p {
+    margin-bottom: 26px;
+  }
+  .img--actual {
+    width: 298px;
+    height: 215px;
+    margin-top: 100px;
+    margin-left: 380px;
+    border-radius: 10px;
+  }
+  .tecnologia,
+  .ondas {
+    display: inline;
+  }
+  .btn {
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    margin-left: -3px;
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #20233a;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .btn-tex {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+}
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+h1{
+  display: flex;
+}
